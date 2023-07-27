@@ -1,0 +1,220 @@
+body {
+    background-color: #AE795B;
+}
+
+.logo {
+    border-radius: 30px;
+}
+
+.wrapper-one {
+    background-image: url(img-barista.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 40px;
+}
+
+.header {  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Source Code Pro', monospace;
+    font-family: 'Spectral', serif; 
+}
+
+.nav {
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.nav:hover {
+    background-color: #b68e77;
+    border-radius: 30px;
+    padding: 10px;
+    transition-duration: 2s;
+}
+
+.slogan {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Source Code Pro', monospace;
+    font-family: 'Spectral', serif; 
+    margin-top: 100px;
+    font-size: 25px;
+}
+
+p {
+    color: white;
+}
+
+button {
+    background-color: #3A0909;
+    border-radius: 40px;
+    padding: 20px;
+    color: white;
+    border: none;
+}
+
+button:hover {
+    background-color: #6f2a2a;
+    transition-duration: 2s;
+}
+
+.wrapper-two {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.img-menu {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+.wrapper-three {
+    display: flex;
+    flex-direction: column;
+}
+
+.heading {
+    display: flex;
+    justify-content: center;
+    font-family: 'Source Code Pro', monospace;
+    font-family: 'Spectral', serif; 
+    font-size: 25px;
+    color: white;
+}
+
+.white-house {
+    float: right;
+}
+
+
+.text {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    font-family: 'Source Code Pro', monospace;
+    font-family: 'Spectral', serif;
+}
+
+.text-2 {
+    border: #6f2a2a solid 3px;
+    border-radius: 30px;
+    padding: 30px;
+    margin: 20px;
+
+}
+
+.btn {
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+.map {
+    display: flex;
+    justify-content: center;
+}
+
+.footer {
+    font-size: 25px;
+    font-family: 'Source Code Pro', monospace;
+    font-family: 'Spectral', serif; 
+}
+
+label {
+    font-size: 25px;
+    padding: 20px;
+}
+
+.wrapper-four {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.text-card {
+
+    font-family: 'Source Code Pro', monospace;
+    font-family: 'Spectral', serif;
+}
+
+@media all and (max-width:900px) {
+
+
+    .nav {
+        font-size: 20px;
+    }
+}
+
+@media all and (max-width:800px) {
+    
+
+
+    .nav {
+        font-weight: 200;
+        font-size: 15px;
+    }
+
+    .map {
+        justify-content: center;
+    }
+
+}
+
+@media all and (max-width:500px) {
+
+    .logo {
+        width: 80px;
+    }
+
+    .header {
+        flex-direction: column;
+    }
+
+    .nav {
+        font-size: 20px;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    .nadpis {
+        font-size: 20px;
+    }
+
+    .menucafe {
+        width: 400px;
+    }
+
+    .white-house {
+        width: 300px;
+    }
+
+    .gift {
+        width: 300px;
+        margin-left: 45px;
+    }
+
+    .btn-1 {
+        margin-left: 70px;
+    }
+
+    .btn-2 {
+        margin-left: 120px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
