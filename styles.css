@@ -1,12 +1,13 @@
 body {
     background-color: #AE795B;
+    margin: 0;
 }
 
 .logo {
     border-radius: 30px;
 }
 
-.wrapper-one {
+#wrapper-one {
     background-image: url(img-barista.jpg);
     background-size: cover;
     background-position: center;
@@ -59,9 +60,10 @@ button {
 button:hover {
     background-color: #6f2a2a;
     transition-duration: 2s;
+    cursor: pointer;
 }
 
-.wrapper-two {
+#wrapper-two {
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -73,7 +75,7 @@ button:hover {
     margin-bottom: 25px;
 }
 
-.wrapper-three {
+#wrapper-three {
     display: flex;
     flex-direction: column;
 }
@@ -129,7 +131,7 @@ label {
     padding: 20px;
 }
 
-.wrapper-four {
+#wrapper-four {
     display: flex;
     flex-direction: column;
     align-items: center;
